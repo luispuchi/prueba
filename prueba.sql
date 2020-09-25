@@ -13,11 +13,11 @@ CREATE TABLE facturaproducto(id SERIAL, id_cliente INT, FOREIGN KEY(id_cliente) 
 
 
 --insertando datos
-INSERT INTO clientes(nombre, rut, direccion) VALUES ('cliente1', 2000000, 'alameda 500'), ('cliente2', 7800000, 'Apoquindo 3000'), ('cliente3', 9000000, 'maipu 5000'), ('cliente4', 15300000, 'carmen 300'), ('cliente5', 98100000, 'vicuña mackena 400');
+INSERT INTO clientes(nombre, rut, direccion) VALUES ('cliente1', 2000000, 'las condes 100'), ('cliente2', 7800000, 'san miguel 1000'), ('cliente3', 9000000, 'quilicura 5000'), ('cliente4', 15300000, 'renca 340'), ('cliente5', 98100000, 'macul  100');
 
-INSERT INTO categorias(nombre, descripcion) VALUES ('articulos de limpieza', 'productos varios para uso domestico'), ('abarrotes', 'alimentos envasados con valores nutricionales'), ('helados', 'marcas nacionales e internacionales');
+INSERT INTO categorias(nombre, descripcion) VALUES ('articulos de pulir', 'productos agua purificada'), ('abarrotes', 'alimento para nutricionistas'), ('salame', 'marcas nacionales e internacionales');
 
-INSERT INTO productos(nombre, descripcion, valor_unitario, id_categoria) VALUES ('producto1', 'limpiador de oxido para todo tipo de metales', 150,1), ('producto2', 'helado de vainilla frutos del bosque con aroma a vainilla', 100, 3), ('producto3', 'fideos de colores con salsa incluida', 50, 2), ('producto4', 'atún con producto sin conservantes', 150, 2), ('producto5', 'desodorante aroma a bosque', 70, 2), ('producto6', 'agua con sabores tropicales', 30, 2), ('producto7', 'shampoo para todo tipo de cabellos', 10, 2), ('producto8', 'chocolate con cacao 100%', 5, 2);
+INSERT INTO productos(nombre, descripcion, valor_unitario, id_categoria) VALUES ('producto1', 'agua purificada', 150,1), ('producto2', 'agua alcalina', 100, 3), ('producto3', 'fideos de colores con salsa incluida', 50, 2), ('producto4', 'atún con producto sin conservantes', 150, 2), ('producto5', 'desodorante aroma a bosque', 70, 2), ('producto6', 'agua con sabores tropicales', 30, 2), ('producto7', 'shampoo para todo tipo de cabellos', 10, 2), ('producto8', 'chocolate con cacao 100%', 5, 2);
 
 
 --facturas cliente 1
